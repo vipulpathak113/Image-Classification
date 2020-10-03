@@ -56,7 +56,7 @@ class App extends React.Component {
       canvas.height = img.height;
       context.drawImage(img, 0, 0);
     };
-    img.src = "/baby_yoda.jpg";
+    img.src = "./baby_yoda.jpg";
   }
 
   handleChange() {
